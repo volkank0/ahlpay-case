@@ -1,0 +1,78 @@
+02-08-2024 18:55:55.394 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:55:55.398 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:55:56.001 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:55:56.007 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:55:56.009 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:55:56.012 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:55:57.209 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:55:57.214 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:01.076 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:01.081 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:20.334 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:20.339 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:25.514 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:25.517 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:26.104 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:26.109 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:26.113 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:26.115 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:32.283 [python] [DEBUG] KillProcessrequest received
+02-08-2024 18:58:19.481 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+02-08-2024 18:58:19.481 [Gauge] [INFO] Initializing specs cache with 2 specs
+02-08-2024 18:58:19.481 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC01.spec
+02-08-2024 18:58:19.481 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC12.spec
+02-08-2024 18:58:19.481 [Gauge] [INFO] Initializing steps cache with 2 steps
+02-08-2024 18:58:19.481 [Gauge] [INFO] Starting language runner
+02-08-2024 18:58:19.481 [Gauge] [DEBUG] Watching directory: /Users/vk/Desktop/ahlpay/ahlpay-case/specs
+02-08-2024 18:58:19.482 [Gauge] [DEBUG] Found 2 files
+02-08-2024 18:58:20.129 [python] [INFO] Python: 3.9.6
+02-08-2024 18:58:20.129 [python] [DEBUG] Loading step implementations from /Users/vk/Desktop/ahlpay/ahlpay-case/step_impl dirs.
+02-08-2024 18:58:20.245 [python] [DEBUG] Starting grpc server..
+02-08-2024 18:58:20.249 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62106
+02-08-2024 18:58:20.249 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62106
+02-08-2024 18:58:20.249 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+02-08-2024 18:58:21.006 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+02-08-2024 18:58:21.007 [Gauge] [INFO] Initializing specs cache with 2 specs
+02-08-2024 18:58:21.007 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC01.spec
+02-08-2024 18:58:21.007 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC12.spec
+02-08-2024 18:58:21.007 [Gauge] [INFO] Initializing steps cache with 2 steps
+02-08-2024 18:58:21.007 [Gauge] [INFO] Starting language runner
+02-08-2024 18:58:21.007 [Gauge] [DEBUG] Watching directory: /Users/vk/Desktop/ahlpay/ahlpay-case/specs
+02-08-2024 18:58:21.008 [Gauge] [DEBUG] Found 2 files
+02-08-2024 18:58:22.258 [python] [INFO] Python: 3.9.6
+02-08-2024 18:58:22.258 [python] [DEBUG] Loading step implementations from /Users/vk/Desktop/ahlpay/ahlpay-case/step_impl dirs.
+02-08-2024 18:58:22.382 [python] [DEBUG] Starting grpc server..
+02-08-2024 18:58:22.386 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62109
+02-08-2024 18:58:22.387 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62109
+02-08-2024 18:58:22.387 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+02-08-2024 18:58:22.395 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:22.401 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:22.403 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:22.405 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:22.463 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:22.468 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:22.469 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:22.473 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:24.661 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:24.665 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:41.287 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:58:41.291 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:58:48.189 [python] [DEBUG] KillProcessrequest received
+02-08-2024 19:06:29.379 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+02-08-2024 19:06:29.380 [Gauge] [INFO] Initializing specs cache with 2 specs
+02-08-2024 19:06:29.380 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC12.spec
+02-08-2024 19:06:29.380 [Gauge] [DEBUG] Adding specs from /Users/vk/Desktop/ahlpay/ahlpay-case/specs/TC01.spec
+02-08-2024 19:06:29.380 [Gauge] [INFO] Initializing steps cache with 2 steps
+02-08-2024 19:06:29.381 [Gauge] [INFO] Starting language runner
+02-08-2024 19:06:29.381 [Gauge] [DEBUG] Watching directory: /Users/vk/Desktop/ahlpay/ahlpay-case/specs
+02-08-2024 19:06:29.381 [Gauge] [DEBUG] Found 2 files
+02-08-2024 19:06:30.696 [python] [INFO] Python: 3.9.6
+02-08-2024 19:06:30.696 [python] [DEBUG] Loading step implementations from /Users/vk/Desktop/ahlpay/ahlpay-case/step_impl dirs.
+02-08-2024 19:06:30.835 [python] [DEBUG] Starting grpc server..
+02-08-2024 19:06:30.839 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62133
+02-08-2024 19:06:30.840 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62133
+02-08-2024 19:06:30.840 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+02-08-2024 19:06:30.849 [Gauge] [DEBUG] Validation started.
+02-08-2024 19:06:30.853 [Gauge] [DEBUG] Validation completed.
+02-08-2024 19:06:30.855 [Gauge] [DEBUG] Validation started.
+02-08-2024 19:06:30.857 [Gauge] [DEBUG] Validation completed.

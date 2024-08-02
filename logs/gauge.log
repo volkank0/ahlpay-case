@@ -1,0 +1,116 @@
+02-08-2024 18:56:01.866 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/vk/Desktop/ahlpay-case/.gauge/screenshots
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] Plugin python is already installed.
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] Parsing started.
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] Started concepts parsing.
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] 0 concepts parsing completed.
+02-08-2024 18:56:01.867 [Gauge] [DEBUG] Started specifications parsing.
+02-08-2024 18:56:01.868 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-08-2024 18:56:01.868 [Gauge] [DEBUG] Parsing completed.
+02-08-2024 18:56:02.336 [Gauge] [DEBUG] Checking updates...
+02-08-2024 18:56:02.336 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=html-report,python,screenshot&o=darwin&a=arm64
+02-08-2024 18:56:02.342 [python] [INFO] Python: 3.9.6
+02-08-2024 18:56:02.342 [python] [DEBUG] Loading step implementations from /Users/vk/Desktop/ahlpay-case/step_impl dirs.
+02-08-2024 18:56:02.445 [python] [DEBUG] Starting grpc server..
+02-08-2024 18:56:02.449 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62073
+02-08-2024 18:56:02.449 [Gauge] [DEBUG] Successfully made the connection with runner with port: 62073
+02-08-2024 18:56:02.449 [Gauge] [DEBUG] Validation started.
+02-08-2024 18:56:02.453 [Gauge] [DEBUG] Validation completed.
+02-08-2024 18:56:02.453 [Gauge] [DEBUG] Run started
+02-08-2024 18:56:02.453 [Gauge] [DEBUG] Starting Html Report plugin
+02-08-2024 18:56:02.489 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-08-2024 18:56:02.489 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 62076
+02-08-2024 18:56:02.489 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 62076
+02-08-2024 18:56:02.489 [Gauge] [DEBUG] Initialising suite data store.
+02-08-2024 18:56:02.551 [python] [ERROR] /Users/vk/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+02-08-2024 18:56:02.551 [python] [ERROR] warnings.warn(
+02-08-2024 18:56:02.655 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=html-report,python,screenshot&o=darwin&a=arm64
+02-08-2024 18:56:02.705 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=html-report,python,screenshot&o=darwin&a=arm64
+02-08-2024 18:56:04.044 [Gauge] [INFO] # Go to volkanpay login page
+02-08-2024 18:56:04.050 [Gauge] [INFO] ## NonCampaign Bank Transfer Verification
+02-08-2024 18:56:04.056 [Gauge] [DEBUG] * Go to "https://www.volkanpay.com/login"
+02-08-2024 18:56:04.822 [Gauge] [ERROR] 
+Failed Step: Go to "https://www.volkanpay.com/login"
+02-08-2024 18:56:04.822 [Gauge] [ERROR] Specification: specs/TC01.spec:2
+02-08-2024 18:56:04.822 [Gauge] [ERROR] Error Message: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x000000010511d088 cxxbridge1$str$ptr + 1887276
+1   chromedriver                        0x0000000105115764 cxxbridge1$str$ptr + 1856264
+2   chromedriver                        0x0000000104d2482c cxxbridge1$string$len + 88524
+3   chromedriver                        0x0000000104d1d7e8 cxxbridge1$string$len + 59784
+4   chromedriver                        0x0000000104d10008 cxxbridge1$string$len + 4520
+5   chromedriver                        0x0000000104d11a10 cxxbridge1$string$len + 11184
+6   chromedriver                        0x0000000104d103e4 cxxbridge1$string$len + 5508
+7   chromedriver                        0x0000000104d0fc30 cxxbridge1$string$len + 3536
+8   chromedriver                        0x0000000104d0fb7c cxxbridge1$string$len + 3356
+9   chromedriver                        0x0000000104d0d954 core::str::slice_error_fail::he7b2aa4898bc357e + 59976
+10  chromedriver                        0x0000000104d0e48c core::str::slice_error_fail::he7b2aa4898bc357e + 62848
+11  chromedriver                        0x0000000104d26cdc cxxbridge1$string$len + 97916
+12  chromedriver                        0x0000000104da0d10 cxxbridge1$string$len + 597680
+13  chromedriver                        0x0000000104da048c cxxbridge1$string$len + 595500
+14  chromedriver                        0x0000000104d5d474 cxxbridge1$string$len + 321044
+15  chromedriver                        0x0000000104d5e0e4 cxxbridge1$string$len + 324228
+16  chromedriver                        0x00000001050e4a6c cxxbridge1$str$ptr + 1656336
+17  chromedriver                        0x00000001050e94c8 cxxbridge1$str$ptr + 1675372
+18  chromedriver                        0x00000001050ca950 cxxbridge1$str$ptr + 1549556
+19  chromedriver                        0x00000001050e9c78 cxxbridge1$str$ptr + 1677340
+20  chromedriver                        0x00000001050bc660 cxxbridge1$str$ptr + 1491460
+21  chromedriver                        0x0000000105106ac0 cxxbridge1$str$ptr + 1795684
+22  chromedriver                        0x0000000105106c3c cxxbridge1$str$ptr + 1796064
+23  chromedriver                        0x0000000105115398 cxxbridge1$str$ptr + 1855292
+24  libsystem_pthread.dylib             0x000000018bb6ef94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018bb69d34 thread_start + 8
+02-08-2024 18:56:04.822 [Gauge] [ERROR] Stacktrace: 
+Traceback (most recent call last):
+  File "/Users/vk/Library/Python/3.9/lib/python/site-packages/getgauge/executor.py", line 33, in execute_method
+    step.impl(*params)
+  File "/Users/vk/Desktop/ahlpay-case/step_impl/get_started.py", line 32, in go_to_url
+    driver.get(url)
+  File "/Users/vk/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 363, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/vk/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/Users/vk/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x000000010511d088 cxxbridge1$str$ptr + 1887276
+1   chromedriver                        0x0000000105115764 cxxbridge1$str$ptr + 1856264
+2   chromedriver                        0x0000000104d2482c cxxbridge1$string$len + 88524
+3   chromedriver                        0x0000000104d1d7e8 cxxbridge1$string$len + 59784
+4   chromedriver                        0x0000000104d10008 cxxbridge1$string$len + 4520
+5   chromedriver                        0x0000000104d11a10 cxxbridge1$string$len + 11184
+6   chromedriver                        0x0000000104d103e4 cxxbridge1$string$len + 5508
+7   chromedriver                        0x0000000104d0fc30 cxxbridge1$string$len + 3536
+8   chromedriver                        0x0000000104d0fb7c cxxbridge1$string$len + 3356
+9   chromedriver                        0x0000000104d0d954 core::str::slice_error_fail::he7b2aa4898bc357e + 59976
+10  chromedriver                        0x0000000104d0e48c core::str::slice_error_fail::he7b2aa4898bc357e + 62848
+11  chromedriver                        0x0000000104d26cdc cxxbridge1$string$len + 97916
+12  chromedriver                        0x0000000104da0d10 cxxbridge1$string$len + 597680
+13  chromedriver                        0x0000000104da048c cxxbridge1$string$len + 595500
+14  chromedriver                        0x0000000104d5d474 cxxbridge1$string$len + 321044
+15  chromedriver                        0x0000000104d5e0e4 cxxbridge1$string$len + 324228
+16  chromedriver                        0x00000001050e4a6c cxxbridge1$str$ptr + 1656336
+17  chromedriver                        0x00000001050e94c8 cxxbridge1$str$ptr + 1675372
+18  chromedriver                        0x00000001050ca950 cxxbridge1$str$ptr + 1549556
+19  chromedriver                        0x00000001050e9c78 cxxbridge1$str$ptr + 1677340
+20  chromedriver                        0x00000001050bc660 cxxbridge1$str$ptr + 1491460
+21  chromedriver                        0x0000000105106ac0 cxxbridge1$str$ptr + 1795684
+22  chromedriver                        0x0000000105106c3c cxxbridge1$str$ptr + 1796064
+23  chromedriver                        0x0000000105115398 cxxbridge1$str$ptr + 1855292
+24  libsystem_pthread.dylib             0x000000018bb6ef94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018bb69d34 thread_start + 8
+
+02-08-2024 18:56:04.933 [python] [INFO] Güzel dönüşlerinizi heyecanla bekliyorum.
+02-08-2024 18:56:04.938 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-08-2024 18:56:04.965 [html-report] [INFO] Successfully generated html-report to => /Users/vk/Desktop/ahlpay-case/reports/html-report/index.html
+02-08-2024 18:56:04.965 [html-report] [DEBUG] Done generating HTML report using theme from /Users/vk/.gauge/plugins/html-report/4.3.1/themes/default
+02-08-2024 18:56:04.965 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-08-2024 18:56:04.978 [python] [DEBUG] KillProcessrequest received
+02-08-2024 18:56:04.978 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+02-08-2024 18:56:04.978 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+02-08-2024 18:56:04.978 [Gauge] [INFO] 
+Total time taken: 2.483s
+02-08-2024 18:56:04.979 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
